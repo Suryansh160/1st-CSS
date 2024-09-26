@@ -1,19 +1,50 @@
- h1{
-    color: #e76f51;
- }
- h2
+#j{
+   color: #e76f51;
+   text-align: center;
+   font-family: arial ;
+   font-size: 10px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.k
+{
+   color: #f4a261;
+}
+
+p{
+   color: #e9c46a;
+}
+
+button{
+   color: 2a9d8f;
+    background-color: #D64658;
+}
+#outer {
+   font-size:45px ;}
+   #inner{
+      font-size:10px;
+   }
+
+body{
+   background-color:#264653;
+}
+*
  {
-    color: #f4a261;
+   color: pink;
+   font-family: 'Times New Roman', Times, serif;
  }
-
+ #box{
+   background-color: blue;
+ }
  p{
-    color: #e9c46a;
+    text-align: end;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 50px;
  }
-
- button{
-    color: 2a9d8f;
-    color background-color: #D64658;
- }
- body{
-    background-color:#264653;
+ a{
+   text-decoration: green dashed underline;
  }
