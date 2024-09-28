@@ -1,0 +1,55 @@
+.outer {
+  height: 60px;
+  background-color: #0f1111;
+  gap: 200px;
+
+button {
+  background-color: #f08804;
+}}
+*{
+    background-image:url(./ichigo-kurosaki-bankai-desktop-wallpaper.jpg) ;
+    background-size: contain;
+}
+a {
+  color: rgba(red, green, blue, 0);
+  text-decoration: none;
+  margin-right: 50px;
+}
+div{
+    height: 50vh; 
+    border: 2px black solid;
+    display: inline-block;
+    background-image: url(./ichigo-kurosaki-bankai-desktop-wallpaper.jpg);
+}
+#p{
+    background-color: rgba(138, 121, 121, 0.25);
+width: 0.5rem;
+font-size: 0.2em;
+z-index: 99;
+position: sticky;
+top: 20px;
+left: 40px;
+}
+#q{
+    background-color: rgba(0, 255, 0, 0.5);
+    width: 60%;
+    font-size: 0.3em;
+    position: relative;
+    top: 50px;
+}
+#r{
+    background-color: rgba(0, 0, 255, 0.75);
+    width: 99%;
+    font-size: 0.10em;
+    position: fixed;
+    right: 10;
+    top: 0;
+}
+footer{
+background-color:#0f1111 ;
+color:white;
+text-align: center;
+}
+#divhi{
+    height: 300px;
+}

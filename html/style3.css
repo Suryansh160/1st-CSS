@@ -1,0 +1,74 @@
+#div1{
+    height: 250px;
+    width: 400px;
+    background-image: url(/css/ichigo-kurosaki-bankai-desktop-wallpaper.jpg);
+    position: fixed;
+    color: aquamarine;
+    left: 49%;
+    background-size: cover;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+}
+#outer{
+    margin: auto;
+    border: 2px rgb(145, 71, 107) solid;
+    height:180px;
+    width: 800px;
+    /* padding-left: 20% ;
+    padding-right: 20%; */
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    #inner1{
+        margin: 10px;
+        width: 100px;
+        height: 65px;
+        text-align: center;
+        border: 5px;
+        background-color: #01FEFF;
+        display: inline-block;
+    }
+    #inner2{
+        margin: 10px;
+        text-align: center;
+        width: 100px;
+        height: 55px;
+        border: 5px;
+        background-color: #FEB9C4;
+        display: inline-block;
+    }
+    #inner3{
+        margin: 10px;
+        width: 100px;
+        text-align: center;
+        height: 65px;
+        border: 5px;
+        background-color: #B5AE60;
+        display: inline-block;
+    }
+    #inner4{
+        margin: 10px;
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        border: 5px;
+        background-color: #C75352;
+        display: inline-block;
+    }
+    #inner5{
+        margin: 10px;
+        width: 100px;
+        height: 65px;
+        border: 5px;
+        background-color:#5E51C6;
+        text-align: center;
+        display: inline-block;
+    }
+}
