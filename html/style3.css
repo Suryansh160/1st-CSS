@@ -16,59 +16,93 @@ h1{
     margin: auto;
     border: 2px rgb(145, 71, 107) solid;
     height:180px;
-    width: 800px;
+    width: 900px;
     /* padding-left: 20% ;
     padding-right: 20%; */
     display: flex;
     flex-direction: row-reverse;
-    /* align-content: center; */
+    /* align-content: flex-end;  */
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     #inner1{
-        margin: 10px;
+    
         width: 100px;
         height: 65px;
         text-align: center;
-        border: 5px;
+        flex-shrink: 500;
         background-color: #01FEFF;
         display: inline-block;
+        align-self: flex-start;
     }
     #inner2{
-        margin: 10px;
+
         text-align: center;
         width: 100px;
         height: 55px;
-        border: 5px;
+        flex-grow: 2;
         background-color: #FEB9C4;
         display: inline-block;
     }
     #inner3{
-        margin: 10px;
+        
         width: 100px;
         text-align: center;
         height: 65px;
-        border: 5px;
+        flex-grow: 4;
         background-color: #B5AE60;
         display: inline-block;
     }
     #inner4{
-        margin: 10px;
+        
         width: 100px;
         height: 45px;
         text-align: center;
-        border: 5px;
+        
         background-color: #C75352;
         display: inline-block;
     }
     #inner5{
-        margin: 10px;
         width: 100px;
         height: 65px;
-        border: 5px;
+        flex-shrink:1000;
+    
         background-color:#5E51C6;
         text-align: center;
         display: inline-block;
     }
 }
+#navbar{
+    display: flex;
+    flex-direction: row;
+align-items: flex-end;    
+justify-content:
+ left;
+ div{
+    text-align: center;
+ }
+/* margin: 20px; */
+}
+
+#navbar{
+    
+    
+    background-color: #C75352; 
+    div{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 600px;
+        background-color: #B5AE60;
+    
+    }
+    a{
+    margin-right: 20px;
+     justify-content: space-evenly; 
+     background-color: palegreen;
+    color: #B5AE60;
+    text-decoration: none; 
+}}

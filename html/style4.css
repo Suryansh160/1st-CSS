@@ -1,0 +1,41 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    /* transition-property: all;
+    transition-duration: 2s; */
+    /* transition-timing-function: ease-in-out ; */
+    border: 20px black solid;
+   
+}
+@media(width:600px){
+    div{
+        background-color: rgb(244, 124, 124);
+    }
+}
+@media(max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:300px)and(max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width:400px)and(max-width:600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+}
+div:hover{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
